@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css'
+import './Screen2.css'
 
 export type Screen1Props = {
     title: string;

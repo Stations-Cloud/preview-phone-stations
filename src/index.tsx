@@ -1,7 +1,7 @@
 import React from "react";
 import Screen1 from "./components/Screen1";
 import Screen2 from "./components/Screen2";
-import './styles.css'
+import './App.css';
 
 export type IProps = {
   title: string;

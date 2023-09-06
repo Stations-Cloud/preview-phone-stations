@@ -1,9 +1,145 @@
-/* add css module styles here (optional) */
+._1P8t7 {
+  position: relative;
+  flex-direction: column;
+  width: 250px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/src/assets/celphoneIcon.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
-._3ybTi {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+._2b8zw {
+  display: flex;
+  width: 88%;
+  height: 70px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: -8px;
+  margin-left: 1px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  color: #fff;
+  background-color: #569a59;
+}
+
+._1qB0a {
+  width: 16px;
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+._21CEn {
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+
+._1U0CL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+}
+
+._333TA {
+  height: 70px;
+  width: 70px;
+}
+
+._k-a1s {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+._BfAyp {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+
+._tccuf {
+  border: 1px dashed #569a59;
+  height: 30px;
+  width: 60%;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+._30TGr {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+
+._3S4by {
+  font-size: 10px;
+  color: #666;
+  margin-top: 20px;
+}
+
+._333-E {
+  background-color: #569a59;
+  color: #fff;
+  margin-top: 10px;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  height: 40px;
+  width: 110px;
+}
+
+._2XnEa {
+  font-size: 9px;
+  color: #777;
+  margin-top: 20px;
+}
+
+._1o-Fp {
   text-align: center;
+}
+
+._3JCPt {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  ._3JCPt {
+    animation: _RvI1J infinite 20s linear;
+  }
+}
+
+._3iH8L {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+._13fTZ {
+  color: #61dafb;
+}
+
+@keyframes _RvI1J {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
