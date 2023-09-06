@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.module.css'
+import '../styles.css'
 import leftArrow from '../assets/left-arrow.png';
 import clubeLogo from '../assets/clubeLogo.png';
 
