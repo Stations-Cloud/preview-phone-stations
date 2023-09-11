@@ -34,7 +34,7 @@ var Screen2 = function Screen2(props) {
   }, props.barText ? props.barText : 'Notificações')), React.createElement("div", {
     className: styles$1.contentContainer
   }, React.createElement("img", {
-    src: props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/notificationScreen.png',
+    src: props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/clubeLogo.png',
     className: styles$1.logoImg,
     alt: 'Logo'
   }), React.createElement("h1", {

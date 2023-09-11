@@ -24,7 +24,7 @@ const Screen2: React.FC<Screen2Props> = (props) => {
       </div>
       <div className={styles.contentContainer}>
         <img
-          src={props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/notificationScreen.png'}
+          src={props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/clubeLogo.png'}
           className={styles.logoImg}
           alt='Logo'
         />
