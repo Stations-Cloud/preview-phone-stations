@@ -1,5 +1,5 @@
 import React from 'react';
-import './Screen2.css'
+import styles from './Screen1.css'
 
 export type Screen1Props = {
     title: string;
@@ -8,10 +8,10 @@ export type Screen1Props = {
 
 const Screen1: React.FC<Screen1Props> = ({ title, description }) => {
     return (
-        <div className="screen1">
-            <div className='main-container'>
-                <h1 className='title-notification'>{title}</h1>
-                <p className='descripition-notification'>{description}</p>
+        <div className={styles.screen1}>
+            <div className={styles.mainContainer}>
+                <h1 className={styles.titleNotification}>{title}</h1>
+                <p className={styles.descripitionNotification}>{description}</p>
             </div>
         </div>
     );

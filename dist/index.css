@@ -1,3 +1,33 @@
+._3LDBN {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 500px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-image: url("/src/assets/notificationScreen.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._K-CBb {
+  margin-top: -65px;
+  margin-left: 29px;
+}
+
+._3nf-K {
+  font-size: 9px;
+}
+
+._3yTTG {
+  position: absolute;
+  font-size: 8px;
+  margin-top: -6px;
+  color: #555;
+}
+
 ._1P8t7 {
   position: relative;
   flex-direction: column;
@@ -11,7 +41,7 @@
   background-size: contain;
 }
 
-._2b8zw {
+._2bTNP {
   display: flex;
   width: 88%;
   height: 70px;
@@ -26,20 +56,19 @@
   background-color: #569a59;
 }
 
-._1qB0a {
+._3kZNL {
   width: 16px;
   height: 12px;
   margin-left: 10px;
   margin-top: 18px;
 }
-
-._21CEn {
+._XOTox {
   font-size: 15px;
   margin-left: 10px;
   margin-top: 18px;
 }
 
-._1U0CL {
+._2wlgM {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,25 +77,25 @@
   height: 80%;
 }
 
-._333TA {
+._2sxh9 {
   height: 70px;
   width: 70px;
 }
 
-._k-a1s {
+._2bf1I {
   font-size: 14px;
   font-weight: 400;
   margin-top: 15px;
 }
 
-._BfAyp {
+._20vSF {
   font-size: 13px;
   font-weight: 400;
   margin-top: 15px;
   letter-spacing: 1px;
 }
 
-._tccuf {
+._1P7li {
   border: 1px dashed #569a59;
   height: 30px;
   width: 60%;
@@ -75,20 +104,20 @@
   align-items: center;
 }
 
-._30TGr {
+._1Ii_w {
   font-size: 14px;
   font-weight: 600;
   margin-top: 5px;
   letter-spacing: 1px;
 }
 
-._3S4by {
+._3fN-o {
   font-size: 10px;
   color: #666;
   margin-top: 20px;
 }
 
-._333-E {
+._3pRGJ {
   background-color: #569a59;
   color: #fff;
   margin-top: 10px;
@@ -99,7 +128,7 @@
   width: 110px;
 }
 
-._2XnEa {
+._3TG3h {
   font-size: 9px;
   color: #777;
   margin-top: 20px;

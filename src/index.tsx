@@ -1,7 +1,7 @@
 import React from "react";
 import Screen1 from "./components/Screen1";
 import Screen2 from "./components/Screen2";
-import './App.css';
+import styles from  './App.css';
 
 export type IProps = {
   title: string;
@@ -31,7 +31,7 @@ function App({
   pageTitle,
 }: IProps) {
   return (
-    <div className="App">
+    <div className={styles.App}>
       <Screen1 title={title} description={description} />
       <Screen2
         barText={barText}

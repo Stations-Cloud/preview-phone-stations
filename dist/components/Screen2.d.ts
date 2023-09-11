@@ -1,5 +1,4 @@
 import React from 'react';
-import './Screen2.css';
 export declare type Screen2Props = {
     barText?: string;
     logo?: string;

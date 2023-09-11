@@ -1,5 +1,5 @@
 import React from 'react';
-import './Screen2.css';
+import styles from './Screen2.css'
 import leftArrow from '../assets/left-arrow.png';
 import clubeLogo from '../assets/clubeLogo.png';
 
@@ -20,32 +20,32 @@ const Screen2: React.FC<Screen2Props> = (props) => {
 
     return (
 
-        <div className="screen2">
-            <div className='top-bar'>
-                <img src={leftArrow} alt='seta' className='arrow-left' />
-                <div className='bar-text'>{props.barText ? props.barText : "Notificações"}</div>
+        <div className={styles.screen2}>
+            <div className={styles.topBar}>
+                <img src={leftArrow} alt='seta' className={styles.arrowLeft} />
+                <div className={styles.barText}>{props.barText ? props.barText : "Notificações"}</div>
             </div>
-            <div className='content-container'>
+            <div className={styles.contentContainer}>
 
                 <img
                     src={props.logo ? props.logo : clubeLogo}
-                    className='logo-img'
+                    className={styles.logoImg}
                     alt="Logo"
                 />
 
-                <h1 className='page-title'>{props.pageTitle}</h1>
-                {props.code ? <h3 className='code-title'>CÓDIGO</h3> : ""}
-                {props.code ? <div className='code-container'>
-                    <p className='code-text'>{props.code}</p>
+                <h1 className={styles.pageTitle}>{props.pageTitle}</h1>
+                {props.code ? <h3 className={styles.codeTitle}>CÓDIGO</h3> : ""}
+                {props.code ? <div className={styles.codeContainer}>
+                    <p className={styles.codeText}>{props.code}</p>
                 </div>
                     : ""
                 }
-                <p className='notification-description'>{props.notificationDescription}</p>
+                <p className={styles.notificationDescription}>{props.notificationDescription}</p>
                 {props.buttonLink ? <a href={props.buttonLink} target="_blank" rel="noopener noreferrer">
-                    <button className='button-link'>{props.buttonText}</button>
+                    <button className={styles.buttonLink}>{props.buttonText}</button>
                 </a> : ""
                 }
-                {props.discountRules ? <p className='rules-text'>{props.discountRules}</p> : ""}
+                {props.discountRules ? <p className={styles.rulesText}>{props.discountRules}</p> : ""}
             </div>
         </div>
     );

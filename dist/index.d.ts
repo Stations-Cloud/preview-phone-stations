@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css';
 export declare type IProps = {
     title: string;
     description: string;

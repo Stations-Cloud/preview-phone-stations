@@ -11,7 +11,7 @@
   background-size: contain;
 }
 
-.top-bar {
+.topBar {
   display: flex;
   width: 88%;
   height: 70px;
@@ -26,20 +26,19 @@
   background-color: #569a59;
 }
 
-.arrow-left {
+.arrowLeft {
   width: 16px;
   height: 12px;
   margin-left: 10px;
   margin-top: 18px;
 }
-
-.bar-text {
+.barText {
   font-size: 15px;
   margin-left: 10px;
   margin-top: 18px;
 }
 
-.content-container {
+.contentContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,25 +47,25 @@
   height: 80%;
 }
 
-.logo-img {
+.logoImg {
   height: 70px;
   width: 70px;
 }
 
-.page-title {
+.pageTitle {
   font-size: 14px;
   font-weight: 400;
   margin-top: 15px;
 }
 
-.code-title {
+.codeTitle {
   font-size: 13px;
   font-weight: 400;
   margin-top: 15px;
   letter-spacing: 1px;
 }
 
-.code-container {
+.codeContainer {
   border: 1px dashed #569a59;
   height: 30px;
   width: 60%;
@@ -75,20 +74,20 @@
   align-items: center;
 }
 
-.code-text {
+.codeText {
   font-size: 14px;
   font-weight: 600;
   margin-top: 5px;
   letter-spacing: 1px;
 }
 
-.notification-description {
+.notificationDescription {
   font-size: 10px;
   color: #666;
   margin-top: 20px;
 }
 
-.button-link {
+.buttonLink {
   background-color: #569a59;
   color: #fff;
   margin-top: 10px;
@@ -99,7 +98,7 @@
   width: 110px;
 }
 
-.rules-text {
+.rulesText {
   font-size: 9px;
   color: #777;
   margin-top: 20px;

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Screen2.css';
 export declare type Screen1Props = {
     title: string;
     description: string;

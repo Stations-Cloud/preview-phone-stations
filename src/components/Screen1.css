@@ -12,16 +12,16 @@
   background-size: contain;
 }
 
-.main-container {
+.mainContainer {
   margin-top: -65px;
   margin-left: 29px;
 }
 
-.title-notification {
+.titleNotification {
   font-size: 9px;
 }
 
-.descripition-notification {
+.descripitionNotification {
   position: absolute;
   font-size: 8px;
   margin-top: -6px;
