@@ -35,31 +35,31 @@ var Screen2 = function Screen2(props) {
     className: styles$1.arrowLeft
   }), React.createElement("div", {
     className: styles$1.barText
-  }, props.barText ? props.barText : "Notificações")), React.createElement("div", {
+  }, props.barText ? props.barText : 'Notificações')), React.createElement("div", {
     className: styles$1.contentContainer
   }, React.createElement("img", {
     src: props.logo ? props.logo : clubeLogo,
     className: styles$1.logoImg,
-    alt: "Logo"
+    alt: 'Logo'
   }), React.createElement("h1", {
     className: styles$1.pageTitle
   }, props.pageTitle), props.code ? React.createElement("h3", {
     className: styles$1.codeTitle
-  }, "C\xD3DIGO") : "", props.code ? React.createElement("div", {
+  }, "C\xD3DIGO") : '', props.code ? React.createElement("div", {
     className: styles$1.codeContainer
   }, React.createElement("p", {
     className: styles$1.codeText
-  }, props.code)) : "", React.createElement("p", {
+  }, props.code)) : '', React.createElement("p", {
     className: styles$1.notificationDescription
   }, props.notificationDescription), props.buttonLink ? React.createElement("a", {
     href: props.buttonLink,
-    target: "_blank",
-    rel: "noopener noreferrer"
+    target: '_blank',
+    rel: 'noopener noreferrer'
   }, React.createElement("button", {
     className: styles$1.buttonLink
-  }, props.buttonText)) : "", props.discountRules ? React.createElement("p", {
+  }, props.buttonText)) : '', props.discountRules ? React.createElement("p", {
     className: styles$1.rulesText
-  }, props.discountRules) : ""));
+  }, props.discountRules) : ''));
 };
 
 var styles$2 = {"App":"_1o-Fp","App-logo":"_3JCPt","App-logo-spin":"_RvI1J","App-header":"_3iH8L","App-link":"_13fTZ"};
