@@ -71,13 +71,14 @@ function App(_ref) {
     logo = _ref.logo,
     notificationDescription = _ref.notificationDescription,
     notificationTitle = _ref.notificationTitle,
-    pageTitle = _ref.pageTitle;
+    pageTitle = _ref.pageTitle,
+    type = _ref.type;
   return React.createElement("div", {
     className: styles$2.App
-  }, React.createElement(Screen1, {
+  }, type === 'notifications' ? React.createElement(Screen1, {
     title: title,
     description: description
-  }), React.createElement(Screen2, {
+  }) : React.createElement(Screen2, {
     barText: barText,
     logo: logo,
     pageTitle: pageTitle,
