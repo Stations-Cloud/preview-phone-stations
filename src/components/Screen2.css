@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("/src/assets/celphoneIcon.svg");
+  background-image: url("https://node.clubecerto.com.br/superapp/images/assets/station/celphoneIcon.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }

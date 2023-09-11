@@ -1,7 +1,5 @@
 import React from 'react'
 import styles from './Screen2.css'
-import leftArrow from '../assets/left-arrow.png'
-import clubeLogo from '../assets/clubeLogo.png'
 
 export type Screen2Props = {
   barText?: string
@@ -19,14 +17,14 @@ const Screen2: React.FC<Screen2Props> = (props) => {
   return (
     <div className={styles.screen2}>
       <div className={styles.topBar}>
-        <img src={leftArrow} alt='seta' className={styles.arrowLeft} />
+        <img src='https://node.clubecerto.com.br/superapp/images/assets/station/left-arrow.png' alt='seta' className={styles.arrowLeft} />
         <div className={styles.barText}>
           {props.barText ? props.barText : 'Notificações'}
         </div>
       </div>
       <div className={styles.contentContainer}>
         <img
-          src={props.logo ? props.logo : clubeLogo}
+          src={props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/notificationScreen.png'}
           className={styles.logoImg}
           alt='Logo'
         />

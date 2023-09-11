@@ -7,7 +7,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-image: url("/src/assets/notificationScreen.png");
+  background-image: url("https://node.clubecerto.com.br/superapp/images/assets/station/notificationScreen.png");
   background-repeat: no-repeat;
   background-size: contain;
 }

@@ -18,17 +18,13 @@ var Screen1 = function Screen1(_ref) {
 
 var styles$1 = {"screen2":"_1P8t7","topBar":"_2bTNP","arrowLeft":"_3kZNL","barText":"_XOTox","contentContainer":"_2wlgM","logoImg":"_2sxh9","pageTitle":"_2bf1I","codeTitle":"_20vSF","codeContainer":"_1P7li","codeText":"_1Ii_w","notificationDescription":"_3fN-o","buttonLink":"_3pRGJ","rulesText":"_3TG3h"};
 
-var leftArrow = "left-arrow~jAfIqaoT.png";
-
-var clubeLogo = "clubeLogo~nSnIIxIG.png";
-
 var Screen2 = function Screen2(props) {
   return React.createElement("div", {
     className: styles$1.screen2
   }, React.createElement("div", {
     className: styles$1.topBar
   }, React.createElement("img", {
-    src: leftArrow,
+    src: 'https://node.clubecerto.com.br/superapp/images/assets/station/left-arrow.png',
     alt: 'seta',
     className: styles$1.arrowLeft
   }), React.createElement("div", {
@@ -36,7 +32,7 @@ var Screen2 = function Screen2(props) {
   }, props.barText ? props.barText : 'Notificações')), React.createElement("div", {
     className: styles$1.contentContainer
   }, React.createElement("img", {
-    src: props.logo ? props.logo : clubeLogo,
+    src: props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/notificationScreen.png',
     className: styles$1.logoImg,
     alt: 'Logo'
   }), React.createElement("h1", {
