@@ -48,6 +48,11 @@ const Screen2: React.FC<Screen2Props> = (props) => {
         ) : (
           ''
         )}
+        { props.buttonLink && props.discountRules ? (
+          <div className='line-final'></div>
+        ) : (
+          ''
+        )}
         {props.discountRules ? (
           <p className={styles.rulesText}>{props.discountRules}</p>
         ) : (
