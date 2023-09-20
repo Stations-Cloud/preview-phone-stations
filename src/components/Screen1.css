@@ -18,21 +18,22 @@
 
 .titleContainer {
   margin-left: 37px;
+  margin-top: 3px;
 }
 
 .titleNotification {
-  font-size: 8px;
+  font-size: 9px;
   text-align: left;
 }
 
 .descriptionContainer {
   margin-left: 38px;
-  margin-top: -13px;
+  margin-top: 6px;
   width: 180px;
 }
 
 .descripitionNotification {
-  font-size: 7px;
+  font-size: 8px;
   color: #555;
   text-align: left;
 }
