@@ -10,8 +10,12 @@ const Screen1: React.FC<Screen1Props> = ({ title, description }) => {
   return (
     <div className={styles.screen1}>
       <div className={styles.mainContainer}>
-        <h1 className={styles.titleNotification}>{title}</h1>
-        <p className={styles.descripitionNotification}>{description}</p>
+        <div className={styles.titleContainer}>
+          <h1 className={styles.titleNotification}>{title}</h1>
+        </div>
+        <div className={styles.descriptionContainer}>
+          <p className={styles.descripitionNotification}>{description}</p>
+        </div>
       </div>
     </div>
   )

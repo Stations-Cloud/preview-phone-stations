@@ -2805,7 +2805,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 });
 
-var styles = {"screen1":"_3LDBN","mainContainer":"_K-CBb","titleNotification":"_3nf-K","descripitionNotification":"_3yTTG"};
+var styles = {"screen1":"_3LDBN","mainContainer":"_K-CBb","titleContainer":"_17omf","titleNotification":"_3nf-K","descriptionContainer":"_lYSVq","descripitionNotification":"_3yTTG"};
 
 var Screen1 = function Screen1(_ref) {
   var title = _ref.title,
@@ -2814,14 +2814,18 @@ var Screen1 = function Screen1(_ref) {
     className: styles.screen1
   }, react.createElement("div", {
     className: styles.mainContainer
+  }, react.createElement("div", {
+    className: styles.titleContainer
   }, react.createElement("h1", {
     className: styles.titleNotification
-  }, title), react.createElement("p", {
+  }, title)), react.createElement("div", {
+    className: styles.descriptionContainer
+  }, react.createElement("p", {
     className: styles.descripitionNotification
-  }, description)));
+  }, description))));
 };
 
-var styles$1 = {"screen2":"_1P8t7","topBar":"_2bTNP","arrowLeft":"_3kZNL","barText":"_XOTox","contentContainer":"_2wlgM","logoImg":"_2sxh9","pageTitle":"_2bf1I","codeTitle":"_20vSF","codeContainer":"_1P7li","codeText":"_1Ii_w","notificationDescription":"_3fN-o","buttonLink":"_3pRGJ","rulesText":"_3TG3h"};
+var styles$1 = {"screen2":"_1P8t7","topBar":"_2bTNP","arrowLeft":"_3kZNL","barText":"_XOTox","contentContainer":"_2wlgM","logoImg":"_2sxh9","pageTitle":"_2bf1I","codeTitle":"_20vSF","codeContainer":"_1P7li","codeText":"_1Ii_w","notificationDescription":"_3fN-o","buttonLink":"_3pRGJ","line-final":"_1dCzg","rulesText":"_3TG3h"};
 
 var Screen2 = function Screen2(props) {
   return react.createElement("div", {
@@ -2856,7 +2860,9 @@ var Screen2 = function Screen2(props) {
     rel: 'noopener noreferrer'
   }, react.createElement("button", {
     className: styles$1.buttonLink
-  }, props.buttonText)) : '', props.discountRules ? react.createElement("p", {
+  }, props.buttonText)) : '', props.buttonLink && props.discountRules ? react.createElement("div", {
+    className: 'line-final'
+  }) : '', props.discountRules ? react.createElement("p", {
     className: styles$1.rulesText
   }, props.discountRules) : ''));
 };
