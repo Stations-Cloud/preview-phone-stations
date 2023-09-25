@@ -34,6 +34,7 @@
 }
 .barText {
   font-size: 15px;
+  font-family: 'Nexa Bold';
   margin-left: 10px;
   margin-top: 18px;
 }
@@ -54,6 +55,7 @@
 
 .pageTitle {
   font-size: 14px;
+  font-family: 'Nexa Regular';
   font-weight: 400;
   margin-top: 15px;
   width: 85%;
@@ -61,6 +63,7 @@
 
 .codeTitle {
   font-size: 13px;
+  font-family: 'Nexa Regular';
   font-weight: 400;
   margin-top: 15px;
   letter-spacing: 1px;
@@ -79,12 +82,13 @@
 .codeText {
   font-size: 14px;
   font-weight: 600;
-
+  font-family: 'Nexa Regular';
   letter-spacing: 1px;
 }
 
 .notificationDescription {
   font-size: 10px;
+  font-family: 'Nexa Regular';
   color: #666;
   margin-top: 20px;
   width: 95%;
@@ -97,10 +101,11 @@
   background-color: #569a59;
   color: #fff;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 13px;
+  font-family: 'Nexa Regular';
   border: none;
   border-radius: 30px;
-  height: 40px;
+  height: 30px;
   width: 170px;
   
 }
@@ -116,5 +121,6 @@
   font-size: 9px;
   color: #777;
   margin-top: 20px;
+  font-family: 'Nexa Regular';
   width: 95%;
 }

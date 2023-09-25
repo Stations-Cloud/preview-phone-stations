@@ -13,27 +13,28 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 169px;
+  margin-top: 171px;
 }
 
 ._17omf {
   margin-left: 37px;
-  margin-top: 3px;
 }
 
 ._3nf-K {
-  font-size: 9px;
+  font-size: 8px;
+  font-family: 'Nexa Bold';
   text-align: left;
 }
 
 ._lYSVq {
   margin-left: 38px;
-  margin-top: 6px;
+  margin-top: -13px;
   width: 180px;
 }
 
 ._3yTTG {
-  font-size: 8px;
+  font-size: 7px;
+  font-family: 'Nexa Regular';
   color: #555;
   text-align: left;
 }
@@ -74,6 +75,7 @@
 }
 ._XOTox {
   font-size: 15px;
+  font-family: 'Nexa Bold';
   margin-left: 10px;
   margin-top: 18px;
 }
@@ -94,6 +96,7 @@
 
 ._2bf1I {
   font-size: 14px;
+  font-family: 'Nexa Regular';
   font-weight: 400;
   margin-top: 15px;
   width: 85%;
@@ -101,6 +104,7 @@
 
 ._20vSF {
   font-size: 13px;
+  font-family: 'Nexa Regular';
   font-weight: 400;
   margin-top: 15px;
   letter-spacing: 1px;
@@ -119,12 +123,13 @@
 ._1Ii_w {
   font-size: 14px;
   font-weight: 600;
-
+  font-family: 'Nexa Regular';
   letter-spacing: 1px;
 }
 
 ._3fN-o {
   font-size: 10px;
+  font-family: 'Nexa Regular';
   color: #666;
   margin-top: 20px;
   width: 95%;
@@ -137,10 +142,11 @@
   background-color: #569a59;
   color: #fff;
   margin-top: 10px;
-  font-size: 15px;
+  font-size: 13px;
+  font-family: 'Nexa Regular';
   border: none;
   border-radius: 30px;
-  height: 40px;
+  height: 30px;
   width: 170px;
   
 }
@@ -156,6 +162,7 @@
   font-size: 9px;
   color: #777;
   margin-top: 20px;
+  font-family: 'Nexa Regular';
   width: 95%;
 }
 
@@ -196,4 +203,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Nexa Black";
+  src: url("../../fonts/NexaBlack.otf");
+}
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../../fonts/NexaBold.otf");
+}
+@font-face {
+  font-family: "Nexa Book";
+  src: url("../../fonts/NexaBook.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraBold";
+  src: url("../../fonts/NexaXBold.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraLight";
+  src: url("../../fonts/Nexa Light.otf");
+}
+
+@font-face {
+  font-family: "Nexa Regular";
+  src: url("../../fonts/NexaRegular.otf");
+}
+._1nuGg {
+  font-family: "Nexa Regular";
+}
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("../../fonts/NexaLight.otf");
+}
+
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("../../fonts/NexaHeavy.otf");
 }

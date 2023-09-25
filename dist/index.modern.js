@@ -2867,7 +2867,7 @@ var Screen2 = function Screen2(props) {
   }, props.discountRules) : ''));
 };
 
-var styles$2 = {"App":"_1o-Fp","App-logo":"_3JCPt","App-logo-spin":"_RvI1J","App-header":"_3iH8L","App-link":"_13fTZ"};
+var styles$2 = {"App":"_1o-Fp","App-logo":"_3JCPt","App-logo-spin":"_RvI1J","App-header":"_3iH8L","App-link":"_13fTZ","font-regular":"_1nuGg"};
 
 function App(_ref) {
   var title = _ref.title,

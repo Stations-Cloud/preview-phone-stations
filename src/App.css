@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "Nexa Black";
+  src: url("../../fonts/NexaBlack.otf");
+}
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("../../fonts/NexaBold.otf");
+}
+@font-face {
+  font-family: "Nexa Book";
+  src: url("../../fonts/NexaBook.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraBold";
+  src: url("../../fonts/NexaXBold.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraLight";
+  src: url("../../fonts/Nexa\ Light.otf");
+}
+
+@font-face {
+  font-family: "Nexa Regular";
+  src: url("../../fonts/NexaRegular.otf");
+}
+.font-regular {
+  font-family: "Nexa Regular";
+}
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("../../fonts/NexaLight.otf");
+}
+
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("../../fonts/NexaHeavy.otf");
+}

@@ -13,27 +13,28 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 169px;
+  margin-top: 171px;
 }
 
 .titleContainer {
   margin-left: 37px;
-  margin-top: 3px;
 }
 
 .titleNotification {
-  font-size: 9px;
+  font-size: 8px;
+  font-family: 'Nexa Bold';
   text-align: left;
 }
 
 .descriptionContainer {
   margin-left: 38px;
-  margin-top: 6px;
+  margin-top: -13px;
   width: 180px;
 }
 
 .descripitionNotification {
-  font-size: 8px;
+  font-size: 7px;
+  font-family: 'Nexa Regular';
   color: #555;
   text-align: left;
 }
