@@ -1,3 +1,81 @@
+._1o-Fp {
+  text-align: center;
+}
+
+._3JCPt {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  ._3JCPt {
+    animation: _RvI1J infinite 20s linear;
+  }
+}
+
+._3iH8L {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+._13fTZ {
+  color: #61dafb;
+}
+
+@keyframes _RvI1J {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: "Nexa Black";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexaBlack.otf")
+}
+@font-face {
+  font-family: "Nexa Bold";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaBold.otf");
+}
+@font-face {
+  font-family: "Nexa Book";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaBook.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraBold";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexabold.otf");
+}
+@font-face {
+  font-family: "Nexa ExtraLight";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexalight.otf");
+}
+
+@font-face {
+  font-family: "Nexa Regular";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaRegular.otf");
+}
+._1nuGg {
+  font-family: "Nexa Regular";
+}
+
+@font-face {
+  font-family: "Nexa Light";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaLight.otf");
+}
+
+@font-face {
+  font-family: "Nexa Heavy";
+  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaHeavy.otf");
+}
+
 ._3LDBN {
   position: relative;
   display: flex;
@@ -165,82 +243,4 @@
   margin-top: 20px;
   font-family: 'Nexa Regular';
   width: 95%;
-}
-
-._1o-Fp {
-  text-align: center;
-}
-
-._3JCPt {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  ._3JCPt {
-    animation: _RvI1J infinite 20s linear;
-  }
-}
-
-._3iH8L {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-._13fTZ {
-  color: #61dafb;
-}
-
-@keyframes _RvI1J {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@font-face {
-  font-family: "Nexa Black";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexaBlack.otf")
-}
-@font-face {
-  font-family: "Nexa Bold";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaBold.otf");
-}
-@font-face {
-  font-family: "Nexa Book";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaBook.otf");
-}
-@font-face {
-  font-family: "Nexa ExtraBold";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexabold.otf");
-}
-@font-face {
-  font-family: "Nexa ExtraLight";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/nexalight.otf");
-}
-
-@font-face {
-  font-family: "Nexa Regular";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaRegular.otf");
-}
-._1nuGg {
-  font-family: "Nexa Regular";
-}
-
-@font-face {
-  font-family: "Nexa Light";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaLight.otf");
-}
-
-@font-face {
-  font-family: "Nexa Heavy";
-  src: url("https://node.clubecerto.com.br/superapp/images/assets/fonts/NexaHeavy.otf");
 }

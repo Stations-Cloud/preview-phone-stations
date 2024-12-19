@@ -2805,69 +2805,69 @@ if (process.env.NODE_ENV === 'production') {
 }
 });
 
-var styles = {"screen1":"_3LDBN","mainContainer":"_K-CBb","titleContainer":"_17omf","titleNotification":"_3nf-K","descriptionContainer":"_lYSVq","descripitionNotification":"_3yTTG"};
+var styles = {"App":"_1o-Fp","App-logo":"_3JCPt","App-logo-spin":"_RvI1J","App-header":"_3iH8L","App-link":"_13fTZ","font-regular":"_1nuGg"};
+
+var styles$1 = {"screen1":"_3LDBN","mainContainer":"_K-CBb","titleContainer":"_17omf","titleNotification":"_3nf-K","descriptionContainer":"_lYSVq","descripitionNotification":"_3yTTG"};
 
 var Screen1 = function Screen1(_ref) {
   var title = _ref.title,
     description = _ref.description;
   return react.createElement("div", {
-    className: styles.screen1
+    className: styles$1.screen1
   }, react.createElement("div", {
-    className: styles.mainContainer
+    className: styles$1.mainContainer
   }, react.createElement("div", {
-    className: styles.titleContainer
+    className: styles$1.titleContainer
   }, react.createElement("h1", {
-    className: styles.titleNotification
+    className: styles$1.titleNotification
   }, title)), react.createElement("div", {
-    className: styles.descriptionContainer
+    className: styles$1.descriptionContainer
   }, react.createElement("p", {
-    className: styles.descripitionNotification
+    className: styles$1.descripitionNotification
   }, description))));
 };
 
-var styles$1 = {"screen2":"_1P8t7","topBar":"_2bTNP","arrowLeft":"_3kZNL","barText":"_XOTox","contentContainer":"_2wlgM","logoImg":"_2sxh9","pageTitle":"_2bf1I","codeTitle":"_20vSF","codeContainer":"_1P7li","codeText":"_1Ii_w","notificationDescription":"_3fN-o","buttonLink":"_3pRGJ","line-final":"_1dCzg","rulesText":"_3TG3h"};
+var styles$2 = {"screen2":"_1P8t7","topBar":"_2bTNP","arrowLeft":"_3kZNL","barText":"_XOTox","contentContainer":"_2wlgM","logoImg":"_2sxh9","pageTitle":"_2bf1I","codeTitle":"_20vSF","codeContainer":"_1P7li","codeText":"_1Ii_w","notificationDescription":"_3fN-o","buttonLink":"_3pRGJ","line-final":"_1dCzg","rulesText":"_3TG3h"};
 
 var Screen2 = function Screen2(props) {
   return react.createElement("div", {
-    className: styles$1.screen2
+    className: styles$2.screen2
   }, react.createElement("div", {
-    className: styles$1.topBar
+    className: styles$2.topBar
   }, react.createElement("img", {
     src: 'https://node.clubecerto.com.br/superapp/images/assets/station/left-arrow.png',
     alt: 'seta',
-    className: styles$1.arrowLeft
+    className: styles$2.arrowLeft
   }), react.createElement("div", {
-    className: styles$1.barText
+    className: styles$2.barText
   }, props.barText ? props.barText : 'Notificações')), react.createElement("div", {
-    className: styles$1.contentContainer
+    className: styles$2.contentContainer
   }, react.createElement("img", {
-    src: props.logo ? props.logo : 'https://node.clubecerto.com.br/superapp/images/assets/station/clubeLogo.png',
-    className: styles$1.logoImg,
+    src: props.logo ? props.logo : '',
+    className: styles$2.logoImg,
     alt: 'Logo'
   }), react.createElement("h1", {
-    className: styles$1.pageTitle
+    className: styles$2.pageTitle
   }, props.pageTitle), props.code ? react.createElement("h3", {
-    className: styles$1.codeTitle
+    className: styles$2.codeTitle
   }, "C\xD3DIGO") : '', props.code ? react.createElement("div", {
-    className: styles$1.codeContainer
+    className: styles$2.codeContainer
   }, react.createElement("p", {
-    className: styles$1.codeText
+    className: styles$2.codeText
   }, props.code)) : '', react.createElement("p", {
-    className: styles$1.notificationDescription
+    className: styles$2.notificationDescription
   }, props.notificationDescription), props.buttonLink ? react.createElement("a", {
     href: props.buttonLink,
     target: '_blank',
     rel: 'noopener noreferrer'
   }, react.createElement("button", {
-    className: styles$1.buttonLink
+    className: styles$2.buttonLink
   }, props.buttonText)) : '', props.buttonLink && props.discountRules ? react.createElement("div", {
     className: 'line-final'
   }) : '', props.discountRules ? react.createElement("p", {
-    className: styles$1.rulesText
+    className: styles$2.rulesText
   }, props.discountRules) : ''));
 };
-
-var styles$2 = {"App":"_1o-Fp","App-logo":"_3JCPt","App-logo-spin":"_RvI1J","App-header":"_3iH8L","App-link":"_13fTZ","font-regular":"_1nuGg"};
 
 function App(_ref) {
   var title = _ref.title,
@@ -2883,7 +2883,7 @@ function App(_ref) {
     pageTitle = _ref.pageTitle,
     type = _ref.type;
   return react.createElement("div", {
-    className: styles$2.App
+    className: styles.App
   }, type === 'notifications' ? react.createElement(Screen1, {
     title: title,
     description: description

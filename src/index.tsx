@@ -1,7 +1,7 @@
 import React from 'react'
+import styles from './App.css'
 import Screen1 from './components/Screen1'
 import Screen2 from './components/Screen2'
-import styles from './App.css'
 
 export type IProps = {
   type: 'screen' | 'notifications'
