@@ -2842,11 +2842,11 @@ var Screen2 = function Screen2(props) {
     className: styles$2.barText
   }, props.barText ? props.barText : 'Notificações')), react.createElement("div", {
     className: styles$2.contentContainer
-  }, react.createElement("img", {
-    src: props.logo ? props.logo : '',
+  }, props.logo ? react.createElement("img", {
+    src: props.logo,
     className: styles$2.logoImg,
     alt: 'Logo'
-  }), react.createElement("h1", {
+  }) : react.createElement("div", null), react.createElement("h1", {
     className: styles$2.pageTitle
   }, props.pageTitle), props.code ? react.createElement("h3", {
     className: styles$2.codeTitle
