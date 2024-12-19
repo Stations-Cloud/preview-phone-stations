@@ -27,11 +27,11 @@ const Screen2: React.FC<Screen2Props> = (props) => {
         </div>
       </div>
       <div className={styles.contentContainer}>
-        <img
-          src={props.logo ? props.logo : ''}
-          className={styles.logoImg}
-          alt='Logo'
-        />
+        {props.logo ? (
+          <img src={props.logo} className={styles.logoImg} alt='Logo' />
+        ) : (
+          <></>
+        )}
 
         <h1 className={styles.pageTitle}>{props.pageTitle}</h1>
         {props.code ? <h3 className={styles.codeTitle}>CÓDIGO</h3> : ''}
