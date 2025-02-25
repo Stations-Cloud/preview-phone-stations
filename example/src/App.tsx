@@ -7,10 +7,11 @@ const App = () => {
   return (
     <ExampleComponent
       title='Create React Library Example 😄'
-      description='asdasd'
+      description='Teste'
       type='screen'
-      barText='asdasd'
-      buttonLink='asdasd'
+      barText='Teste'
+      buttonLink='google.com'
+      buttonText='Teste '
     />
   )
 }
