@@ -56,6 +56,9 @@
     "react-scripts": "^5.0.1"
 
   },
+  "resolutions": {
+    "eslint-config-react-app": "7.0.1"
+  },
   "files": [
     "dist"
   ]
