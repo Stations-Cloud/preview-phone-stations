@@ -143,7 +143,7 @@
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
   color: #fff;
-  background-color: #569a59;
+  background-color: #8F0CF2;
 }
 
 ._3kZNL {
@@ -191,7 +191,7 @@
 
 ._1P7li {
   display: flex;
-  border: 1px dashed #569a59;
+  border: 1px dashed #8F0CF2;
   height: 30px;
   width: 80%;
   border-radius: 30px;
@@ -218,7 +218,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #569a59;
+  background-color: #8F0CF2;
   color: #fff;
   margin-top: 10px;
   font-size: 13px;
@@ -227,12 +227,12 @@
   border-radius: 30px;
   height: 30px;
   width: 170px;
-  
+
 }
 
 ._1dCzg {
   height: 1px;
-  background-color: #569a59;
+  background-color: #8F0CF2;
   margin-top: 20px;
   width: 70%;
 }
